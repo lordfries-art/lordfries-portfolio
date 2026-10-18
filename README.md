@@ -31,3 +31,10 @@ Open `manager.html` in Chrome, Firefox or Edge. Create projects, update their de
 **IMPORTANT:** Click **BACKUP DATA** regularly and keep the JSON backup separately. `RESTORE BACKUP` imports that JSON and its included uploads. Local browser storage can be cleared and large uploads may exceed browser quota. The manager only supports self-contained image files, MP4/WebM/MOV videos, MP3/WAV/OGG/M4A audio, GLB 3D files, and YouTube/Vimeo embeds. For larger media, consider external video hosting to avoid giant GitHub repositories. For GLB uploads, add at least one image to the project and use it as a cover.
 
 Content of the site's About section, social URLs and contact form must still be edited in the HTML/`projects.js` source for now. A manager export includes the original website layout and configured placeholder social links. To change social URLs, update `window.LORDFRIES_CONTACT` in the manager's `projects.js` source.
+
+
+## Version 4: website content editor and artwork viewer
+
+Open `manager.html` and select **WEBSITE TEXT & DETAILS** to edit homepage, About, Contact, social links, and your artist photograph. Select **PORTFOLIO PROJECTS** to manage media. Export the website ZIP, extract it, and upload its contents to the root of your GitHub repository. The export excludes manager files. Full-screen artwork now closes the project dialog temporarily and returns to it when dismissed. Use BACKUP DATA to save both your projects and content settings.
+
+**Important:** The manager runs locally, not on GitHub. Keep `manager.html`, `manager.js`, `manager.css`, `manager-bundle.js` and `site-content.js` together. Upload and test the exported public site. The manager includes editable privacy page wording. It does not support arbitrary new HTML sections or restructuring layouts. Large media may exceed browser storage capacity.
