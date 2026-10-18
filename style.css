@@ -13,3 +13,20 @@
 /* When a custom homepage image is selected, never render the original flower. */
 .hero-art.has-custom-art #hero-default-svg{display:none!important}
 .hero-art.has-custom-art #hero-custom-image{display:block!important}
+
+/* V7: high contrast artwork captions above all media, including video and 3D. */
+.project-dialog .gallery-block{margin:0 0 32px}
+.project-dialog .gallery-block > figcaption{
+  display:block;position:relative;box-sizing:border-box;
+  background:var(--ink);color:var(--paper);
+  border-left:5px solid var(--rust);padding:14px 17px;
+  margin:0 0 12px;font:700 clamp(14px,1.5vw,18px)/1.35 var(--body);
+  letter-spacing:.015em;overflow-wrap:anywhere;
+}
+.project-dialog .gallery-block > figcaption::before{
+  content:'ARTWORK /';display:block;color:var(--mustard);
+  font-size:10px;font-weight:800;letter-spacing:.16em;margin-bottom:6px;
+}
+.project-dialog .gallery-block > .media-player,
+.project-dialog .gallery-block > .audio-player,
+.project-dialog .gallery-block > .model-viewer{margin-top:0}

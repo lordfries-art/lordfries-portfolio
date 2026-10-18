@@ -40,7 +40,7 @@ window.LORDFRIES_CONTENT = {
   "filterDesign": "DESIGN",
   "filterVideo": "VIDEO & ANIMATION",
   "filterAudio": "SOUND (TBC)",
-  "filterModel": "3D",
+  "filterModel": "3D (TBC)",
   "formName": "YOUR NAME",
   "formEmail": "EMAIL ADDRESS",
   "formMessage": "YOUR MESSAGE",
