@@ -9,3 +9,7 @@
 .hero-art #hero-default-svg,.hero-art .hero-custom-image{width:var(--hero-size,100%);height:auto;max-width:none;object-fit:contain;display:block;filter:drop-shadow(8px 12px 0 rgba(0,0,0,.045))}
 .hero-art [hidden]{display:none!important}
 .hero-art .art-caption{margin-top:12px}
+
+/* When a custom homepage image is selected, never render the original flower. */
+.hero-art.has-custom-art #hero-default-svg{display:none!important}
+.hero-art.has-custom-art #hero-custom-image{display:block!important}
