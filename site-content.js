@@ -4,7 +4,7 @@ window.LORDFRIES_CONTENT = {
   "heroHeading": "lordfries<span class=\"period\">.</span>",
   "heroIntro": "Illustration, prints, portraits, identities, animation, sound and things made in three dimensions.",
   "heroCta": "EXPLORE MY STUFF",
-  "heroImage": "assets/uploads/pfp-a63457e6.jpg",
+  "heroImage": "assets/uploads/pfp-2a169d7b.jpg",
   "heroImageAlt": "LORDFRIES homepage artwork",
   "heroImageSize": "100",
   "heroImageX": "0",
